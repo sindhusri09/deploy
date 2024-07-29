@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: zoom-flask-app
+    env: python
+    buildCommand: ""
+    startCommand: "python schedule.py"
+    envVars:
+      - key: CLIENT_ID
+        value: YR2z_EJT06y3703bK9R3w
+      - key: CLIENT_SECRET
+        value: oHwWedItQEqlT2u2oSL1XEruAO0DrSD0
