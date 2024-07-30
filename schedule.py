@@ -69,14 +69,14 @@ def home():
             border-radius: 4px;
         }
         button {
-            background: #052242;
+            background: #0a478a;
             color: #fff;
             border: none;
             cursor: pointer;
             margin-top: 10px;
         }
         button:hover {
-            background: #052242;
+            background: #0a478a;
         }
     </style>
     <form action="/schedule" method="post">
