@@ -76,7 +76,7 @@ def home():
             margin-top: 10px;
         }
         button:hover {
-            background: #0056b3;
+            background: #6c6cf0;
         }
     </style>
     <form action="/schedule" method="post">
