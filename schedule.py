@@ -40,7 +40,7 @@ def home():
     form_html = '''
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: Arial, montserrat;
             background-color: #f4f4f9;
             display: flex;
             justify-content: center;
@@ -69,14 +69,14 @@ def home():
             border-radius: 4px;
         }
         button {
-            background: #007bff;
+            background: #052242;
             color: #fff;
             border: none;
             cursor: pointer;
             margin-top: 10px;
         }
         button:hover {
-            background: #6c6cf0;
+            background: #052242;
         }
     </style>
     <form action="/schedule" method="post">
